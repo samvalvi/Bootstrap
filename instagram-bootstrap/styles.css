@@ -7,7 +7,7 @@ body {
 }
 
 .button:focus{
-    background-color: #D1D5DB;
+    background-color: #6B7280;
     color: white;
 }
 
@@ -22,7 +22,16 @@ body {
     object-fit: cover;
 }
 
+#gear {
+    color: #6B7280;
+}
+
+#insta-logo {
+    color: #6B7280;
+}
+
 #title {
+    color:#6B7280;
     font-family: 'Billabong', sans-serif;
     font-size:29px;
     padding: 6px;
