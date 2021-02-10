@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Proxima Nova Condensed', sans-serif;
 }
@@ -5,6 +9,17 @@ body {
 .button:focus{
     background-color: #D1D5DB;
     color: white;
+}
+
+.gallery_collection {
+    /*Crea tres columnas con el mismo el mismo ancho*/
+    grid-template-columns: repeat(3, 1fr);
+    /*altura de las filas*/
+    grid-auto-rows: 300px;
+}
+
+.gallery_img {
+    object-fit: cover;
 }
 
 #title {
