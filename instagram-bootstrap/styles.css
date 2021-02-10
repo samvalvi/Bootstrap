@@ -2,8 +2,18 @@ body {
     font-family: 'Proxima Nova Condensed', sans-serif;
 }
 
+.button:focus{
+    background-color: #D1D5DB;
+    color: white;
+}
+
 #title {
     font-family: 'Billabong', sans-serif;
     font-size:29px;
     padding: 6px;
+}
+
+#home-tab, #profile-tab {
+    outline:none;
+    border:none;
 }
